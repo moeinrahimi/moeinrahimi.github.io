@@ -1,0 +1,37 @@
+# Site settings
+title: معین
+url: "http://moein-rahimi.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/blog/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+email: m.rahimi2150@gmail.com
+author: moein
+avatar: "//www.gravatar.com/avatar/m.rahimi2150@gmail.com_md5?d=mm&s=135"
+profile: سلام من معین رحیمی و هستم و در این وبلاگ شما آموزش های دنیای وب رو خواهید دید
+twitter_username: imoein1
+github_username:  moein-rahimi
+
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+
+permalink: /archivers/:title
+gems:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

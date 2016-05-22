@@ -2,7 +2,7 @@
 title: معین
 url: "http://moeinrahimi.github.io/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "http://moeinrahimi.github.io/" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
-#timezone: Asia/Chongqing
+timezone: Iran
 description: >
   One or more sentences introducing this blog.
 

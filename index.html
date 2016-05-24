@@ -14,6 +14,7 @@ layout: default
         </h2>
         
         <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+        {{ content | reading_time_as_i }}
 
         <div class="post-excerpt">
           {{ post.excerpt }}

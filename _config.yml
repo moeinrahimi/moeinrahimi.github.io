@@ -1,6 +1,6 @@
 # Site settings
 title: معین
-url: "http://localhost/"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "https://moeinrahimi.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `/jekyll-theme-EasyBook` or just one slash `/`
 timezone: Iran
 description: >
@@ -12,7 +12,7 @@ author: moein
 avatar: "//www.gravatar.com/avatar/m.rahimi2150@gmail.com_md5?d=mm&s=135"
 profile: سلام من معین رحیمی و هستم و در این وبلاگ شما آموزش های دنیای وب رو خواهید دید
 twitter_username: imoein1
-github_username:  moein-rahimi
+github_username:  moeinrahimi
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
@@ -25,6 +25,7 @@ gems:
  - jekyll-gist
  - jemoji
  - jekyll-time-to-read
+ #- jalalidate
 
 # Build settings
 paginate: 5

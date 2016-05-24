@@ -14,10 +14,9 @@ layout: default
         </h2>
         
         <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-        {{ content | reading_time_as_i }}
 
         <div class="post-excerpt">
-          {{ post.excerpt }}
+          {{  post.content | strip_html | truncatewords:175 }}
           <p>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">ادامه مطلب &raquo;</a>
           </p>
